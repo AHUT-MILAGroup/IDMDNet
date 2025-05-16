@@ -12,9 +12,8 @@ class Fusion_dataset(Dataset):
         assert split in ['train', 'val', 'test'], 'split must be "train"|"val"|"test"'
 
         if split == 'train':
-            self.vis_dir = './MSRS/Visible/train/MSRS/'
-            self.ir_dir = './MSRS/Infrared/train/MSRS/'
-            self.label_dir = './MSRS/Label/train/MSRS/'
+            self.vis_dir = '/MSRS/Visible/train/MSRS'
+            self.ir_dir = '/MSRS/Infrared/train/MSRS'
             self.filelist = natsorted(os.listdir(self.vis_dir))
             self.split = split
             self.length = min(len(self.filelist), len(self.filelist))

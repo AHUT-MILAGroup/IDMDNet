@@ -11,7 +11,7 @@ import torch.distributed as dist
 
 
 def setup_logger(logpth):
-    logfile = 'BiSeNet-{}.log'.format(time.strftime('%Y-%m-%d-%H-%M-%S'))
+    logfile = 'vit-{}.log'.format(time.strftime('%Y-%m-%d-%H-%M-%S'))
     logfile = osp.join(logpth, logfile)
     FORMAT = '%(levelname)s %(filename)s(%(lineno)d): %(message)s'
     log_level = logging.INFO
