@@ -1,11 +1,7 @@
 
-#  IDMANet
+#  IDMDNet
 
 The code of "Fusion of Infrared and Visible Images Based on Iterative Dual-branch Attention and Modality Discrepancy Guidance"
-
-## To Test
-Run "**CUDA_VISIBLE_DEVICES=0 python test.py**" to test the model.
-
 
 ## Recommended Environment
 
